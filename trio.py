@@ -373,5 +373,5 @@ def generate_single_dataset(times: np.ndarray, is_train: bool):
     kb.write_image_dict(frames_dict, f"output{suffix}")
 
 
-# generate_single_dataset(train_times, True)
+generate_single_dataset(train_times, True)
 generate_single_dataset(val_times, False)
