@@ -63,24 +63,17 @@ output[_train|_valid]/
 
 **Note:** The validation dataset uses a slightly shifted camera relative to the training set. This allowed us to perform novel view synthesis experiments.
 
-<div style="width: 100%; text-align: center;">
-    <div style="width: 50%; display: inline-block;">
-        <p style="text-align: center">
-            Training sequence
-        </p>
-        <video controls="true" allowfullscreen="true" style="width: 100%;">
-            <source src="assets/train.mp4" type="video/mp4">
-        </video>
+<div style="text-align: center">
+    <div style="width: 49%; display: inline-block;">
+        <p>Train sequence</p>
+        <img src="assets/train.gif" width="256px" alt="Training sequence"/>
     </div>
-    <div style="width: 50%; display: inline-block;">
-        <p style="text-align: center">
-            Validation sequence
-        </p>
-        <video controls="true" allowfullscreen="true" style="width: 100%;">
-            <source src="assets/valid.mp4" type="video/mp4">
-        </video>
+    <div style="width: 49%; display: inline-block;">
+        <p>Validation sequence</p>
+        <img src="assets/valid.gif" width="256px" alt="Validation sequence"/>
     </div>
 </div>
+
 
 
 ## Citing
