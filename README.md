@@ -79,10 +79,10 @@ output[_train|_valid]/
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-@article{kania2021conerf,
-  title     = {CoNeRF: Controllable Neural Radiance Fields},
+@inproceedings{kania2022conerf,
+  title     = {{CoNeRF: Controllable Neural Radiance Fields}},
   author    = {Kania, Kacper and Yi, Kwang Moo and Kowalski, Marek and Trzci{\'n}ski, Tomasz and Tagliasacchi, Andrea},
-  journal   = {arXiv preprint arXiv:2112.01983},
-  year      = {2021}
+  booktitle   = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2022}
 }
 ```
